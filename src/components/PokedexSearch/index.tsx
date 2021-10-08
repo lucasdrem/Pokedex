@@ -64,7 +64,9 @@ const PokedexSearch: React.FC = () => {
 
   return (
     <S.Container>
-      <Typography variant="h2">Throw Your Pokeball!</Typography>
+      <S.TitleContainer>
+        <Typography variant="h2">Throw Your Pokeball!</Typography>
+      </S.TitleContainer>
 
       <S.SearchContainer>
         <Autosuggest
