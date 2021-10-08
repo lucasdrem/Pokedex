@@ -13,11 +13,24 @@ const GlobalStyles = createGlobalStyle`
 
   html, body, #__next {
     height: 100%;
+
   }
 
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    -webkit-font-smoothing: antialiased;
+
+    background: #F6F8FC;
+    color: #0E2030;
+
+    padding: 32px;
   }
+
+  body, input, button, textarea {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+
+
 `
 
 export default GlobalStyles
