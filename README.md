@@ -16,7 +16,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 ## To do
 
-- Include Unit Test in ./Components
+- Include Unit Tests in ./Components
 - Filter with pokemon infos
 - Include other pokemon generations, along with react-virtualized's Mansonry in order to prevent perfomance issues
 - Sort by
